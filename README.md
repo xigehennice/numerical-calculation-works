@@ -5,3 +5,5 @@
 三次样条插值 - Spline.m
 线性拟合 - fitting.m
 二次拟合 - fitting2.m
+
+龙贝格积分-romberg.m
