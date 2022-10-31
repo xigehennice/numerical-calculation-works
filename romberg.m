@@ -19,9 +19,4 @@ while err>=e
     err=abs(T(k+1,k+1)-T(k,k));%误差为该次迭代的首元和上一次迭代首元的差
 end
 disp(T);
-  a = 0;
- b = 1.7;
-syms x;
-f(x) = (1/sqrt(2*pi))*exp(-x^2/2);
- e = 1e-6;
- romberg(f,a,b,e);
+  
